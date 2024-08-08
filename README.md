@@ -4,20 +4,21 @@
 ## 代码
 文字：
 ```html
-  <h1>点击右下角的Coze按钮开始与Chat Bolt聊天。</h1>
+  <h2>点击右下角的Coze按钮开始与Chat Bolt聊天。</h2>
+  <h2>若您已经按下，去和它畅聊吧。</h2>
 ```
 Coze AI:
 ```html
-      <script src="https://lf-cdn.coze.cn/obj/unpkg/flow-platform/chat-app-sdk/0.1.0-beta.5/libs/cn/index.js"></script>
-      <script>
-          new CozeWebSDK.WebChatClient({
-            config: {
-              bot_id: '7400393202651365395',
-            },
-            componentProps: {
-              title: 'Chat Bolt',
-            },
-          });
-      </script>
+  <script src="https://lf-cdn.coze.cn/obj/unpkg/flow-platform/chat-app-sdk/0.1.0-beta.5/libs/cn/index.js"></script>
+  <script>
+    new CozeWebSDK.WebChatClient({
+        config: {
+          bot_id: '7400393202651365395',
+        },
+        componentProps: {
+          title: 'Chat Bolt',
+        },
+      });
+  </script>
 ```
 #### [2024 LXJ tEam](https://lxjteam.zeabur.app)
